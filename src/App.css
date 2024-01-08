@@ -59,17 +59,17 @@ button {
   margin: 5px;
 }
 
-main button:hover {
+button:hover {
   border: 2px solid #04cdae;
   color: #04cdae;
 }
 
-main button.active {
+button.active {
   border: 2px solid #04cdae;
   color: #04cdae;
 }
 
-main .add-property {
+.add-property {
   text-decoration: none;
   padding: 10px;
   background: #04cdae;
@@ -78,7 +78,7 @@ main .add-property {
   transition: 0.1s;
 }
 
-main .add-property:hover {
+.add-property:hover {
   color: white;
 }
 
