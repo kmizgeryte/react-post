@@ -39,9 +39,12 @@ function App() {
 
   return (
     <>
+    <div className='header'>
       <h1>Property List</h1>
       <p>See all the houses you want!</p>
-
+   
+      
+   </div>   
       <p>Filter:</p>
       <div className="filter-section">
         <div className="cities">
@@ -52,7 +55,7 @@ function App() {
         </div>
         <a href="add.html" className="add-property">Add Property +</a>
       </div>
-
+ 
       <section className="cards">
         {filteredData.map((item) => (
           <div key={item.id} className="card">
