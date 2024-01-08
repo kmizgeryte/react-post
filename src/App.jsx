@@ -1,7 +1,7 @@
 // App.jsx
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Form from './form.jsx'
+// import Form from './form.jsx'
 
 function App() {
   const [data, setData] = useState([]);
